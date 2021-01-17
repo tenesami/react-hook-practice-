@@ -1,5 +1,5 @@
-import React, {useState} from 'react'
-
+import React, {useState} from 'react';
+import Form from './Form';
 
 function People() {
     const [name, setName] = useState("Tesf")
@@ -14,6 +14,7 @@ function People() {
     }
 
     return (
+        
         <div>
             <h2>Hello my Name is {name}</h2>
            <button onClick={toggleName}>Change Name</button>

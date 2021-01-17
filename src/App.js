@@ -1,5 +1,6 @@
 import React from 'react';
-import People from './People'
+import People from './People';
+import Form from './Form'
 import './App.css';
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        <People />
+       <Form />
       </header>
     </div>
   );
